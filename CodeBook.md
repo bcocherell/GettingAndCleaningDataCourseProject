@@ -6,15 +6,14 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals. (Note: variables are labelled 'Frequency.Domain' to indicate frequency domain signals.) 
 
+Notes: 
 - 'X', 'Y', and 'Z' are used to denote the 3-axial signals in the X, Y and Z directions. 
 - Mean and SD (standard deviation) values are estimated for each category. 
-
-Note: 
 - Subject range is from 1 to 30
 - All other numeric values have a range from -1 to 1
 
 ### List of variables returned by run_analysis function (each an overall average for each activity and subject):
-
+```
 Activity
 Subject
 Time.Domain.Body.Accelerometer.Signal.Mean.X
@@ -83,3 +82,4 @@ Frequency.Domain.Body.Gryoscope.Signal.Magnitude.Mean
 Frequency.Domain.Body.Gryoscope.Signal.Magnitude.SD
 Frequency.Domain.Body.Gryoscope.Jerk.Signal.Magnitude.Mean
 Frequency.Domain.Body.Gryoscope.Jerk.Signal.Magnitude.SD
+```

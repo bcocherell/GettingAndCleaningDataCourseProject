@@ -56,12 +56,13 @@ The run_analysis.R script performs the following tasks...
   - Only including features that end in either mean() or std()
 - Uses descriptive activity names to name the activities in the data set
 - Appropriately labels the data set with descriptive variable names. 
-- Melts and casts the data set to ultimately return tidy data including the average of each variable for each activity and subject.
+- Melts and casts the data to ultimately return a tidy data set with the average of each variable for each activity and subject.
 
 Note: It is assumed that both dplyr and reshape2 packages are installed. If not, please run the following:
-
-install.packages("dplyr")
-install.packages("reshape2")
+```
+> install.packages("dplyr")
+> install.packages("reshape2")
+```
 
 More information about the variables returned can be found in the [CodeBook.md](CodeBook.md) file.
 
