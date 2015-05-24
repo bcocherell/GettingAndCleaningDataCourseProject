@@ -8,6 +8,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The file/folder structure under your current working directory should look like the following once the data is unzipped. The run_analysis program is expecting the data to be like this:
 
+```
 |-- UCI HAR Dataset
 |   |-- features_info.txt
 |   |-- features.txt
@@ -20,7 +21,7 @@ The file/folder structure under your current working directory should look like 
 |   |   |-- subject_test.txt
 |   |   |-- X_test.txt
 |   |   |-- y_test.txt
-
+```
 
 - 'UCI HAR Dataset/README.txt'
 
