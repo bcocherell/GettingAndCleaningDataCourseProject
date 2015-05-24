@@ -1,16 +1,19 @@
 ## Code Book
 
-Data for this project comes from accelerometer and gyroscope 3-axial raw signals. Time domain signals were captured at a constant rate of 50 Hz (corresponding to columns that start with 'Time.Domain'). They were then filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (corresponding to columns labelled 'Body' and 'Gravity', respectively) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+Data for this project comes from accelerometer and gyroscope 3-axial raw signals. Time domain signals were captured at a constant rate of 50 Hz (corresponding to variables that start with 'Time.Domain'). They were then filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (corresponding to variables labelled 'Body' and 'Gravity', respectively) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (columns labelled 'Jerk.Signal'.) Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (columns labelled 'Magnitude'.) 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (variables labelled 'Jerk.Signal'.) Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (variables labelled 'Magnitude'.) 
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals. (Note: columns are labelled 'Frequency.Domain' to indicate frequency domain signals.) 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals. (Note: variables are labelled 'Frequency.Domain' to indicate frequency domain signals.) 
 
 - 'X', 'Y', and 'Z' are used to denote the 3-axial signals in the X, Y and Z directions. 
 - Mean and SD (standard deviation) values are estimated for each category. 
 
+Note: 
+- Subject range is from 1 to 30
+- All other numeric values have a range from -1 to 1
 
-### List of columns returned by run_analysis function (each an overall average for each activity and subject):
+### List of variables returned by run_analysis function (each an overall average for each activity and subject):
 
 Activity
 Subject
