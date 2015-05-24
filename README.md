@@ -33,7 +33,7 @@ The file/folder structure under your current working directory should look like 
 ### UCI HAR Dataset Detail
 
 The dataset includes the following files:
-
+```
 - features.txt: List of all features (column labels for both main data sets)
 - activity_labels.txt: Links the class labels with their activity name (essentially providing more descriptive activity names)
 - train/X_train.txt: Training set.
@@ -42,6 +42,7 @@ The dataset includes the following files:
 - test/X_test.txt: Test set.
 - test/y_test.txt: Test labels.
 - test/subject_train.txt: Each row identifies the subject who performed the activity for each window sample.
+```
 
 ### Analysis Performed 
 
