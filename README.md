@@ -23,6 +23,9 @@ The file/folder structure under your current working directory should look like 
 |   |   |-- y_test.txt
 ```
 
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 - 'UCI HAR Dataset/README.txt'
 
 - 'UCI HAR Dataset/features_info.txt': Shows information about the variables used on the feature vector.
